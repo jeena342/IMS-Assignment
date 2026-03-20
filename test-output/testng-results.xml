@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-20T12:01:54 IST" name="Suite" finished-at="2026-03-20T12:03:50 IST" duration-ms="116232">
+    <groups>
+    </groups>
+    <test started-at="2026-03-20T12:01:54 IST" name="Test" finished-at="2026-03-20T12:03:50 IST" duration-ms="116232">
+      <class name="testscript.CatapultClassroomProgramTest">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:01:55 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:09 IST" duration-ms="13824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:09 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:12 IST" duration-ms="2476" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=Ahmedabad, City=Ahmedabad, Expected Fees=84075}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The amount is not matching with the database expected [84075.0] but found [95285.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The amount is not matching with the database expected [84075.0] but found [95285.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEquals(Assert.java:728)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:12 IST" name="closeBrowser" finished-at="2026-03-20T12:02:13 IST" duration-ms="1445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:13 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:22 IST" duration-ms="9128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:22 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:25 IST" duration-ms="2318" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=M G Road, City=Cochin, Expected Fees=75667}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The amount is not matching with the database expected [75667.0] but found [11210.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The amount is not matching with the database expected [75667.0] but found [11210.0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEquals(Assert.java:728)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:25 IST" name="closeBrowser" finished-at="2026-03-20T12:02:26 IST" duration-ms="1232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:26 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:37 IST" duration-ms="11550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:37 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:49 IST" duration-ms="11215" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=Palarivattom, City=Cochin, Expected Fees=65000}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:49 IST" name="closeBrowser" finished-at="2026-03-20T12:02:50 IST" duration-ms="1318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:50 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:00 IST" duration-ms="10500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:00 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:12 IST" duration-ms="11299" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=Lal Kothi, City=Jaipur, Expected Fees=62500}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:12 IST" name="closeBrowser" finished-at="2026-03-20T12:03:13 IST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:13 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:24 IST" duration-ms="11456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:24 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:26 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=Borivali, City=Mumbai, Expected Fees=69502}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:26 IST" name="closeBrowser" finished-at="2026-03-20T12:03:27 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=SUCCESS method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:27 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:38 IST" duration-ms="10769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialisation -->
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:38 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:49 IST" duration-ms="10887" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Center=online, City=Mumbai, Expected Fees=57809}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
+(tried for 10 seconds with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:111)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFeesAssignment -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:49 IST" name="closeBrowser" finished-at="2026-03-20T12:03:50 IST" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.CatapultClassroomProgramTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
