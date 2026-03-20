@@ -1,21 +1,21 @@
-###A professional Selenium-based Test Automation Framework designed for the IMS Assignment. This project follows the **Page Object Model (POM)** design pattern to ensure high maintainability and scalability.
+### A professional Selenium-based Test Automation Framework designed for the IMS Assignment. This project follows the **Page Object Model (POM)** design pattern to ensure high maintainability and scalability.
 
-#**Key Features**
+# **Key Features**
 
-###**Page Object Model (POM):** Decouples test logic from UI locators.
-###**Data-Driven Testing:** Utilizes Apache POI to fetch test data from Excel.
-###**Centralized Configuration:** Managed via a BaseClass and config.properties.
-###**Robust Reporting:** Integrated with Extent Reports for interactive HTML results.
-###**Automatic Screenshots:** Captures system screenshots automatically upon test failure.
-###**Utility Library:** Includes reusable methods for Waits, Excel handling, and UI interactions.
+### **Page Object Model (POM):** Decouples test logic from UI locators.
+### **Data-Driven Testing:** Utilizes Apache POI to fetch test data from Excel.
+### **Centralized Configuration:** Managed via a BaseClass and config.properties.
+### **Robust Reporting:** Integrated with Extent Reports for interactive HTML results.
+### **Automatic Screenshots:** Captures system screenshots automatically upon test failure.
+### **Utility Library:** Includes reusable methods for Waits, Excel handling, and UI interactions.
 
-#**Tech Stack**
+# **Tech Stack**
 
-*Language: Java
-*Automation Tool: Selenium WebDriver
-*Test Runner: TestNG
-*Build Tool: Maven
-*Reporting: Extent Reports 5.x
+* Language: Java
+* Automation Tool: Selenium WebDriver
+* Test Runner: TestNG
+* Build Tool: Maven
+* Reporting: Extent Reports 5.x
 *Data Management: Apache POI (Excel)
 
 IMS-Assignment
