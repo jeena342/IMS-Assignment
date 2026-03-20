@@ -11,12 +11,12 @@
 
 #**Tech Stack**
 
--Language: Java
--Automation Tool: Selenium WebDriver
--Test Runner: TestNG
--Build Tool: Maven
--Reporting: Extent Reports 5.x
--Data Management: Apache POI (Excel)
+*Language: Java
+*Automation Tool: Selenium WebDriver
+*Test Runner: TestNG
+*Build Tool: Maven
+*Reporting: Extent Reports 5.x
+*Data Management: Apache POI (Excel)
 
 IMS-Assignment
 ├── src/main/java
