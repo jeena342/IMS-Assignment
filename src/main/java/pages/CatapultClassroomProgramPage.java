@@ -28,7 +28,7 @@ public class CatapultClassroomProgramPage {
     public CatapultClassroomProgramPage selectCityAndCenter(String city, String center) {
     	
         PageUtility.selectByVisibleText(cityDropdown, city);
-       
+        
         PageUtility.selectByVisibleText(centerDropdown, center);
     		
 		return this;

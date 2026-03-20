@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-20T12:01:54 IST" name="Suite" finished-at="2026-03-20T12:03:50 IST" duration-ms="116232">
+  <suite started-at="2026-03-20T18:30:16 IST" name="Suite" finished-at="2026-03-20T18:32:09 IST" duration-ms="112428">
     <groups>
     </groups>
-    <test started-at="2026-03-20T12:01:54 IST" name="Test" finished-at="2026-03-20T12:03:50 IST" duration-ms="116232">
+    <test started-at="2026-03-20T18:30:16 IST" name="Test" finished-at="2026-03-20T18:32:09 IST" duration-ms="112428">
       <class name="testscript.CatapultClassroomProgramTest">
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:01:55 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:09 IST" duration-ms="13824" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:18 IST" name="browserInitialisation" finished-at="2026-03-20T18:30:30 IST" duration-ms="11768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:09 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:12 IST" duration-ms="2476" status="FAIL">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:30 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:30:32 IST" duration-ms="1941" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -70,18 +70,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:12 IST" name="closeBrowser" finished-at="2026-03-20T12:02:13 IST" duration-ms="1445" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:32 IST" name="closeBrowser" finished-at="2026-03-20T18:30:33 IST" duration-ms="1326" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:13 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:22 IST" duration-ms="9128" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:33 IST" name="browserInitialisation" finished-at="2026-03-20T18:30:44 IST" duration-ms="10536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:22 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:25 IST" duration-ms="2318" status="FAIL">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:44 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:30:45 IST" duration-ms="1675" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -144,18 +144,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:25 IST" name="closeBrowser" finished-at="2026-03-20T12:02:26 IST" duration-ms="1232" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:45 IST" name="closeBrowser" finished-at="2026-03-20T18:30:46 IST" duration-ms="1215" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:26 IST" name="browserInitialisation" finished-at="2026-03-20T12:02:37 IST" duration-ms="11550" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:46 IST" name="browserInitialisation" finished-at="2026-03-20T18:30:57 IST" duration-ms="10944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:37 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:02:49 IST" duration-ms="11215" status="FAIL">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:30:57 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:31:08 IST" duration-ms="11064" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -218,18 +218,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:49 IST" name="closeBrowser" finished-at="2026-03-20T12:02:50 IST" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:08 IST" name="closeBrowser" finished-at="2026-03-20T18:31:10 IST" duration-ms="1536" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:02:50 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:00 IST" duration-ms="10500" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:10 IST" name="browserInitialisation" finished-at="2026-03-20T18:31:27 IST" duration-ms="16601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:00 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:12 IST" duration-ms="11299" status="FAIL">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:27 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:31:37 IST" duration-ms="10843" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -292,18 +292,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:12 IST" name="closeBrowser" finished-at="2026-03-20T12:03:13 IST" duration-ms="1244" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:37 IST" name="closeBrowser" finished-at="2026-03-20T18:31:39 IST" duration-ms="1820" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:13 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:24 IST" duration-ms="11456" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:39 IST" name="browserInitialisation" finished-at="2026-03-20T18:31:50 IST" duration-ms="10984" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -314,7 +314,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:24 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:26 IST" duration-ms="2025" status="PASS">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:50 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:31:53 IST" duration-ms="2402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -325,18 +325,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:26 IST" name="closeBrowser" finished-at="2026-03-20T12:03:27 IST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:53 IST" name="closeBrowser" finished-at="2026-03-20T18:31:56 IST" duration-ms="2991" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=SUCCESS method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=SUCCESS method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:27 IST" name="browserInitialisation" finished-at="2026-03-20T12:03:38 IST" duration-ms="10769" status="PASS">
+        <test-method is-config="true" signature="browserInitialisation(java.lang.String)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:31:56 IST" name="browserInitialisation" finished-at="2026-03-20T18:32:05 IST" duration-ms="9580" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,24 +347,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialisation -->
-        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:38 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T12:03:49 IST" duration-ms="10887" status="FAIL">
+        <test-method signature="verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:32:05 IST" name="verifyFeesAssignment" description="User is verifying the fees displayed " data-provider="CityFeeData" finished-at="2026-03-20T18:32:07 IST" duration-ms="1602" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Center=online, City=Mumbai, Expected Fees=57809}]]>
+                <![CDATA[{Center=Online, City=Mumbai, Expected Fees=57809}]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
-(tried for 10 seconds with 500 milliseconds interval)]]>
+              <![CDATA[The amount is not matching with the database expected [57809.0] but found [87438.0]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The dropdown is missing. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='newtotalcost']/preceding-sibling::span'
-(tried for 10 seconds with 500 milliseconds interval)
+              <![CDATA[java.lang.AssertionError: The amount is not matching with the database expected [57809.0] but found [87438.0]
 at org.testng.Assert.fail(Assert.java:111)
-at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:37)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEquals(Assert.java:728)
+at testscript.CatapultClassroomProgramTest.verifyFeesAssignment(CatapultClassroomProgramTest.java:33)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -399,11 +399,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFeesAssignment -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce]" started-at="2026-03-20T12:03:49 IST" name="closeBrowser" finished-at="2026-03-20T12:03:50 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad]" started-at="2026-03-20T18:32:07 IST" name="closeBrowser" finished-at="2026-03-20T18:32:09 IST" duration-ms="1934" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@6d5620ce] output={null}]]]>
+                <![CDATA[[TestResult name=verifyFeesAssignment status=FAILURE method=CatapultClassroomProgramTest.verifyFeesAssignment(java.util.Map)[pri:0, instance:testscript.CatapultClassroomProgramTest@7d322cad] output={null}]]]>
               </value>
             </param>
           </params>
